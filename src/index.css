@@ -139,7 +139,7 @@ section{
 .banner{
   position: relative;
   min-height: 100vh;
-  background: url(https://e3.365dm.com/18/07/2048x1152/skynews-jordan-pickford-england_4352729.jpg);
+  background: url(https://media4.giphy.com/media/SWzYqkXw3DQ3pqjBTw/giphy.gif);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -287,7 +287,7 @@ section.about {
 .services .content .servicesBx:hover{
   background-color: #2196f3;
   box-shadow: 5px 5px 19px 1.5px var(--shadow);
-  transform: scale(1.05);
+  transform: scale(1.03);
 
 }
 .services p{
@@ -385,7 +385,7 @@ header ul {
 
 }
 body::-webkit-scrollbar {
-  width: 0.7rem;
+  width: 0.6rem;
 }
 
 body::-webkit-scrollbar-thumb {
