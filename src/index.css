@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.theme-light {
+  --color-titulo: #000000;
+  --color-text: #111111;
+  --color-back: #ffffff;
+  --color-back-secundario: #f1f1f1;
+}
+.theme-dark {
+  --color-titulo: #ffffff;
+  --color-text: #ffffff;
+  --color-back: #111111;
+  --color-back-secundario: #222;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +21,257 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  scale: 0.75;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px #2020203d;
+  background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+  background: black url('https://i.ibb.co/FxzBYR9/night.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+section{
+  padding: 100px;
+}
+.banner{
+  position: relative;
+  min-height: 100vh;
+  background: url(https://e3.365dm.com/18/07/2048x1152/skynews-jordan-pickford-england_4352729.jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h2{
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 3.5rem;
+}
+.banner h2 span{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.banner h3{
+  font-size: 1.5em;
+  color: #ffffff;
+  font-weight: 500;
+}
+.btn{
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header .logo{
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+header ul{
+  position: relative;
+  display: flex;
+}
+header ul li{
+  position: relative;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+.heading h2{
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.contentBx h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.w50{
+  min-width: 50%;
+}
+img{
+  max-width: 100%;
+}
+.contentBx{
+  padding-right: 30px;
+}
+header.sticky{
+  background: var(--color-back);
+  color: var(--color-text);
+  padding: 20px 100px;
+  opacity: 0.9;
+}
+section.about {
+  background: #1B262C;
+  color: white;
+}
+.icon{
+  width: 128px;
+  height: 128px;
+}
+.sectiondark{
+  background: var(--color-back);
+  color: var(--color-text);
+}
+.services .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.services .content .servicesBx{
+  padding: 40px 20px;
+  background: var(--color-back-secundario);
+  color: var(--color-text);
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+.services .content .servicesBx:hover{
+  background-color: #2196f3;
+}
+
+header ul {
+  text-align: center;
+  align-items: center;
+}
+#switch{
+  z-index: 1000000000000000000;
+}
+
+.sticky ul li a {
+  color: var(--color-titulo);
+}
+.sticky a.logo {
+  color: var(--color-titulo);
 }
