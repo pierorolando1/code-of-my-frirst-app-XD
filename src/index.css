@@ -183,6 +183,9 @@ section{
   scale: 1.1;
   transform: scale(1.09);
 }
+.btn:active{
+  transform: scale(1);
+}
 header{
   position: fixed;
   top: 0;
@@ -286,6 +289,14 @@ section.about {
   box-shadow: 5px 5px 19px 1.5px var(--shadow);
   transform: scale(1.05);
 
+}
+.services p{
+  color: var(--color-text);
+}
+.testimonial .content .testimonialBx h3 span {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 300;
 }
 
 header ul {
