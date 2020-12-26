@@ -5,6 +5,7 @@ import About from './About'
 import Services from './Services'
 import Trabajos from './Trabajos'
 import Testimonial from './Testimonial'
+import Contact from './Contact'
 
 class Inicio extends React.Component{
     render(){
@@ -16,6 +17,7 @@ class Inicio extends React.Component{
             <Services/>
             <Trabajos/>
             <Testimonial/>
+            <Contact/>
         </>
         );
     }
