@@ -7,7 +7,7 @@ class Header extends React.Component{
                 <a href="https://github.com/pierorolando1" className="logo" target="blank">Portafolio</a>
                 <div className="toogle"></div>
                 <div>
-                        <label  class="switch">
+                        <label  class="switch" id="yanosequeponer">
                             <input type="checkbox"  id="slider" />
                             <span class="slider round" id="switch"></span>            
                         </label>
