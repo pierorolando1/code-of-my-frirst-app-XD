@@ -5,7 +5,7 @@ class Trabajos extends React.Component{
         return (
             <section className="work">
                 <div className="heading">
-                    <h2>Mis Servicios</h2>
+                    <h2>Mis Proyectos</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div className="content">
@@ -31,7 +31,7 @@ class Trabajos extends React.Component{
                     </div>
                 </div>
                 <div className="heading">
-                    <a className="btn" href="https://github.com/pierorolando1" rel="noopener noreferrer">dasdsad</a>
+                    <a className="btn" href="https://github.com/pierorolando1" rel="noopener noreferrer">Ver Más</a>
                 </div>
             </section>
         )

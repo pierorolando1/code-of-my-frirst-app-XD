@@ -6,6 +6,10 @@
   --color-back-secundario: #f1f1f1;
   --shadow: #00000091;
   --fondo-terceario: #dfe0e0cc;
+  --barrita1 : ;
+  --barrita2 : ;
+  --barrita3 : ;
+  --barrita4 : ;
 }
 .theme-dark {
   --color-titulo: #ffffff;
@@ -14,6 +18,10 @@
   --color-back-secundario: #222;
   --shadow: #000000;
   --fondo-terceario: #141618;
+  --barrita1 : #282D31;
+  --barrita2 :  #494c4f;
+  --barrita3 : #181a1cc2;
+  --barrita4 :  #2b3033c1;
 }
 
 body {
@@ -23,6 +31,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 
@@ -167,6 +176,7 @@ section{
   letter-spacing: 2px;
   font-weight: 500;
   transition: 0.3s;
+  scroll-behavior: smooth;
 }
 .btn:hover{
   background: #2195f3ec;
@@ -334,4 +344,50 @@ header ul {
 }
 .testimonial{
   background: #222831;
+}
+.testimonial .content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.testimonial .content .testimonialBx{
+  max-width: calc(50% - 40px);
+  padding: 60px 40px;
+  background: #2196f3;
+}
+.testimonial .content .testimonialBx p{
+  color: #ffffff;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+}
+.testimonial .content .testimonialBx h3{
+  margin-top: 40px;
+  text-align: end;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1em;
+}
+.testimonial .content .testimonialBx h3 span{
+  font-size: 14px;
+
+}
+body::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #282D31;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-track {
+  background: #494c4f; 
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #181a1cc2;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb:active{
+  background-color: #2b3033c1;
 }

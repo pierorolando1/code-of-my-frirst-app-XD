@@ -14,7 +14,7 @@ class Header extends React.Component{
                     </div>
                 <ul>
                     <li><a href="#perico" rel="noopener noreferrer">Inicio</a></li>
-                    <li><a href="https://reactjs.org" rel="noopener noreferrer">Acerca mio</a></li>
+                    <li><a href="https://reactjs.org" rel="noopener noreferrer">Acerca de mi</a></li>
                     <li><a href="https://reactjs.org" rel="noopener noreferrer">Servicios</a></li>
                     <li><a href="https://reactjs.org" rel="noopener noreferrer">Trabajos</a></li>
                     <li><a href="https://reactjs.org" rel="noopener noreferrer">Equipo</a></li>

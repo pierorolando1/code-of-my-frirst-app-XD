@@ -5,7 +5,7 @@ render(){
     return (
         <section className="services sectiondark">
             <div className="heading">
-                <h2>Mis Servicios</h2>
+                <h2>Mis Proyectos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
             <div className="content">
