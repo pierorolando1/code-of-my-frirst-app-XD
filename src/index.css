@@ -281,3 +281,12 @@ header ul {
   color: var(--color-titulo);
 }
 /*Hola perosona que este leyendo esto, la quiero mucho*/
+.services .content .servicesBx img{
+  max-width: 80px;
+}
+.theme-dark .services .content .servicesBx img{
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.theme-dark .services .content .servicesBx img::selection  { color: white;  background: #d3d3d3; }

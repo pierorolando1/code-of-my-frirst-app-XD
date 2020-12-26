@@ -4,7 +4,7 @@ class About extends React.Component{
     render(){
         return (
     <>
-    <section className="about">
+    <section className="about" id="perico">
         <div className="heading">
             <h2>Acerca Mio</h2>
         </div>
