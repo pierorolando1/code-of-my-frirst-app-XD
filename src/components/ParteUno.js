@@ -7,7 +7,7 @@ class ParteUno extends React.Component{
                 <div className="textBx">
                     <h2>Hola, soy<br/><span>Piero Rolando</span></h2>
                     <h3>Soy un Full Stack Developer.</h3>
-                    <a href="www.google.com" className="btn">Conoceme</a>
+                    <a href="#perico" className="btn">Conoceme</a>
                 </div>
             </section>
         );

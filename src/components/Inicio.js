@@ -3,6 +3,7 @@ import ParteUno from './ParteUno'
 import Header from './Header'
 import About from './About'
 import Services from './Services'
+import Trabajos from './Trabajos'
 
 class Inicio extends React.Component{
     render(){
@@ -10,8 +11,9 @@ class Inicio extends React.Component{
         <>
             <Header/>
             <ParteUno/>
-            <About/>
+            <About />
             <Services/>
+            <Trabajos/>
         </>
         );
     }

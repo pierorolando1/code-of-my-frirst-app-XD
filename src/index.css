@@ -4,14 +4,16 @@
   --color-text: #111111;
   --color-back: #ffffff;
   --color-back-secundario: #f1f1f1;
-  --shadow: #00000091
+  --shadow: #00000091;
+  --fondo-terceario: #dfe0e0cc;
 }
 .theme-dark {
   --color-titulo: #ffffff;
   --color-text: #ffffff;
   --color-back: #111111;
   --color-back-secundario: #222;
-  --shadow: #000000
+  --shadow: #000000;
+  --fondo-terceario: #141618;
 }
 
 body {
@@ -134,6 +136,8 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .banner h2{
   font-size: 3em;
@@ -152,7 +156,7 @@ section{
 }
 .btn{
   position: relative;
-  background: #2196f3;
+  background: #2195f390;
   display: inline-block;
   color: #ffffff;
   margin-top: 20px;
@@ -162,6 +166,12 @@ section{
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 500;
+  transition: 0.3s;
+}
+.btn:hover{
+  background: #2195f3ec;
+  scale: 1.1;
+  transform: scale(1.09);
 }
 header{
   position: fixed;
@@ -207,7 +217,7 @@ header ul li a{
 .heading h2{
   font-weight: 600;
   font-size: 30px;
-  color: white;
+  color: var(--color-titulo);
 }
 .content{
   display: flex;
@@ -259,10 +269,12 @@ section.about {
   text-align: center;
   box-shadow: 7px 7px 10px 2px var(--shadow);
   transition: 0.5s;
+  border-radius: 10px;
 }
 .services .content .servicesBx:hover{
   background-color: #2196f3;
-  box-shadow: 0px 0px 20px 7px var(--shadow);
+  box-shadow: 5px 5px 19px 1.5px var(--shadow);
+  transform: scale(1.05);
 
 }
 
@@ -289,4 +301,22 @@ header ul {
   filter: invert(1);
 }
 
-.theme-dark .services .content .servicesBx img::selection  { color: white;  background: #d3d3d3; }
+.theme-dark .services .content .servicesBx img::selection  { 
+  color: white;  background: #d3d3d3; 
+}
+.services .content .servicesBx h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.work{
+  background: var(--fondo-terceario);
+}
+#mariconsito{
+  color: white;
+}
+.theme-dark .banner{
+  background: url('https://media4.giphy.com/media/QaeKEI192J0F9TWtj5/giphy.gif');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

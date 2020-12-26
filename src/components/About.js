@@ -6,7 +6,7 @@ class About extends React.Component{
     <>
     <section className="about" id="perico">
         <div className="heading">
-            <h2>Acerca Mio</h2>
+            <h2 id="mariconsito">Acerca Mio</h2>
         </div>
         <div className="content">
             <div className="contentBx w50">
