@@ -6,7 +6,6 @@ render(){
     <section className="contact">
         <div className="heading">
             <h2>Contactame</h2>
-            <p>Lorem impsum dolor sit amet, consechsa, asuidajdsao, djasdje</p>
         </div>
         <div className="content">
             <div className="contactInfo">
@@ -14,19 +13,26 @@ render(){
                 <div className="contactInfoBx">
                     <div className="box">
                         <div className="text">
-                            <h3>Adrees</h3>
-                            <p>rolandopiero63@gmail.com, <br/>Trujillo, Perú<br/>50000</p>
+                            <p>rolandopiero63@gmail.com, <br/>Trujillo, Perú<br/>+51962791928</p>
                         </div>
                     </div>
                     <div className="box">
                         <div className="text">
-                            <h3>Email</h3>
-                            <p>rolandopiero63@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="formBx">
+                <ul>
+                    <a href="#perico" rel="noopener noreferrer"><li><i class="fa fa-whatsapp" aria-hidden="true"></i></li></a>
+                    <a href="#perico" rel="noopener noreferrer"><li><i class="fa fa-telegram" aria-hidden="true"></i></li></a>
+                    <a href="#perico" rel="noopener noreferrer"><li><i class="fa fa-youtube-play" aria-hidden="true"></i></li></a>
+                    <a href="#perico" rel="noopener noreferrer"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                    <a href="#perico" rel="noopener noreferrer"><li><i class="fa fa-facebook-official" aria-hidden="true"></i></li></a>
+                </ul>
+            </div>
         </div>
+
     </section>
 )}}
 

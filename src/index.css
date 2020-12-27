@@ -170,7 +170,7 @@ section{
   color: #ffffff;
   margin-top: 20px;
   padding: 10px 30px;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
@@ -200,7 +200,7 @@ header{
 }
 header .logo{
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -229,7 +229,7 @@ header ul li a{
 }
 .heading h2{
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1.6rem;
   color: var(--color-titulo);
 }
 .content{
@@ -237,7 +237,7 @@ header ul li a{
   justify-content: space-between;
 }
 .contentBx h3{
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .w50{
@@ -294,7 +294,7 @@ section.about {
   color: var(--color-text);
 }
 .testimonial .content .testimonialBx h3 span {
-  font-size: 13px;
+  font-size: 0.9rem;
   font-style: italic;
   font-weight: 300;
 }
@@ -326,7 +326,7 @@ header ul {
   color: white;  background: #d3d3d3; 
 }
 .services .content .servicesBx h2{
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 .work{
@@ -369,7 +369,7 @@ header ul {
 .testimonial .content .testimonialBx p{
   color: #ffffff;
   font-style: italic;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 }
 .testimonial .content .testimonialBx h3{
@@ -377,11 +377,11 @@ header ul {
   text-align: end;
   color: #fff;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.2rem;
   line-height: 1em;
 }
 .testimonial .content .testimonialBx h3 span{
-  font-size: 14px;
+  font-size: 0.9rem;
 
 }
 body::-webkit-scrollbar {
@@ -403,4 +403,45 @@ body::-webkit-scrollbar-thumb:hover {
 body::-webkit-scrollbar-thumb:active{
 
   background-color: #181a1cc2;
+}
+.theme-dark .contact{
+  background: #222831;
+}
+.contact .content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formBx{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.formBx ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+.formBx a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+  margin: 0.3rem;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fa-whatsapp:hover{
+  color: green;
+}
+.contact .contactInfo{
+  color: var(--color-text);
+}
+.contact .fa{
+  color: var(--color-text);
 }
